@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga 🧘‍♂️</title>
+    <style>
+      body {
+        background: rgb(245, 239, 249);
+        background: linear-gradient(
+          90deg,
+          rgba(245, 239, 249, 1) 0%,
+          rgba(251, 251, 251, 1) 66%,
+          rgba(238, 231, 240, 1) 97%
+        );
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: "Cinzel";
+      }
+      h2 {
+        text-align: center;
+        font-family: "Cinzel";
+        font-size: 28px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.2;
+        font-family: "Montserrat";
+      }
+      img {
+        max-width: 100%;
+        border-radius: 20px;
+        height: 250px;
+      }
+      button {
+        width: 150px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+        border: 1px black;
+        font-size: 16px;
+        border-radius: 25px;
+        font-family: "Montserrat";
+      }
+      footer {
+        text-align: center;
+        margin: 15px;
+        color: grey;
+        font-family: "Fira Code Light";
+        font-size: 16px;
+      }
+      a {
+        text-decoration: none;
+        color: #8057e7;
+      }
+      a:hover {
+        color: #8654c7;
+      }
+      .dark a {
+        color: whitesmoke;
+      }
+      .dark a:hover {
+        color: #b384c9;
+      }
+      .container {
+        max-width: 700px;
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px auto;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+      }
+      .grid img {
+        width: 700px;
+      }
+      .yoga-main-picture {
+        border-radius: 10px;
+        transition: 150ms ease-in-out;
+        width: 100%;
+        height: 500px;
+      }
+      .yoga-main-picture:hover {
+        opacity: 0.9;
+        transform: scale3d(1.2, 1.1, 0.2);
+      }
+      .theme-button {
+        background-image: linear-gradient(#aca8a8, #ddd8e2 50%);
+        color: black;
+        padding: 5 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .theme-button:hover {
+        background-image: linear-gradient(#aca4ac, #131118 50%);
+        color: white;
+        cursor: pointer;
+      }
+      .learn-yoga-button {
+        width: 250px;
+        height: 50px;
+        color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+        background-image: linear-gradient(#b384c9, #391f5b 50%);
+      }
+      .learn-yoga-button:hover {
+        background-image: linear-gradient(#65168d, #9360d6 50%);
+        color: black;
+      }
+      .dark {
+        background: rgb(8, 6, 36);
+        background: radial-gradient(
+          circle,
+          rgba(8, 6, 36, 1) 0%,
+          rgba(50, 6, 49, 1) 100%,
+          rgba(47, 22, 91, 1) 100%
+        );
+        color: white;
+      }
+      .dark .container {
+        background: rgb(26, 1, 24);
+      }
+      .dark .theme-button {
+        background-image: linear-gradient(#aca4ac, #131118 50%);
+        color: white;
+      }
+      .dark .theme-button:hover {
+        background-image: linear-gradient(#aca8a8, #ddd8e2 50%);
+        color: black;
+      }
+      .dark .learn-yoga-button {
+        background-image: linear-gradient(#65168d, #9360d6 50%);
+        color: black;
+      }
+      .dark .learn-yoga-button:hover {
+        background-image: linear-gradient(#b384c9, #391f5b 50%);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="toggleText(this)" class="theme-button">Dark Theme</button>
+    <div class="container">
+      <h1>Yoga</h1>
+      <h2>Mental & Physical Health</h2>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/208/original/dave-contreras-R1PUDOAhb5Q-unsplash.jpg?1666102213"
+          alt=""
+          class="yoga-main-picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/210/original/juliana-araujo-the-artist-WaKbsctMcEY-unsplash.jpg?1666102226"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/215/original/oksana-taran-xB4ExGcUai0-unsplash.jpg?1666102381"
+          alt=""
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/533/original/dmitriy-frantsev-SIqmq_6726Y-unsplash.jpg?1666341316"
+          alt=""
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/534/original/conscious-design-IbsgfRJslEc-unsplash_%281%29.jpg?1666341324"
+          alt=""
+        />
+      </div>
+      <p>
+        Yoga is a group of physical, mental, and spiritual practices or
+        disciplines which originated in ancient India and aim to control (yoke)
+        and still the mind, recognizing a detached witness-consciousness
+        untouched by the mind (Chitta) and mundane suffering (Duḥkha). There is
+        a wide variety of schools of yoga, practices, and goals in Hinduism,
+        Buddhism, and Jainism, and traditional and modern yoga is practiced
+        worldwide.
+      </p>
+      <p>
+        Two general theories exist on the origins of yoga. The linear model
+        holds that yoga originated in the Vedic period, as reflected in the
+        Vedic textual corpus, and influenced Buddhism; according to author
+        Edward Fitzpatrick Crangle, this model is mainly supported by Hindu
+        scholars. According to the synthesis model, yoga is a synthesis of
+        non-Vedic and Vedic elements; this model is favoured in Western
+        scholarship. Yoga is first mentioned in the Rigveda, and is referred to
+        in a number of the Upanishads. The first known appearance of the word
+        "yoga" with the same meaning as the modern term is in the Katha
+        Upanishad, which was probably composed between the fifth and third
+        centuries BCE.
+      </p>
+      <p>
+        Yoga continued to develop as a systematic study and practice during the
+        fifth and sixth centuries BCE in ancient India's ascetic and Śramaṇa
+        movements. The most comprehensive text on Yoga, the Yoga Sutras of
+        Patanjali, date to the early centuries of the Common Era; Yoga
+        philosophy became known as one of the six orthodox philosophical schools
+        (Darśanas) of Hinduism in the second half of the first millennium CE.
+      </p>
+      <p>
+        Hatha yoga texts began to emerge between the ninth and 11th centuries,
+        originating in tantra. The term "yoga" in the Western world often
+        denotes a modern form of Hatha yoga and a posture-based physical
+        fitness, stress-relief and relaxation technique, consisting largely of
+        the asanas;this differs from traditional yoga, which focuses on
+        meditation and release from worldly attachments.It was introduced by
+        gurus from India after the success of Swami Vivekananda's adaptation of
+        yoga without asanas in the late 19th and early 20th centuries.
+        Vivekananda introduced the Yoga Sutras to the West, and they became
+        prominent after the 20th-century success of hatha yoga.
+      </p>
+      <p>
+        <a href="https://en.wikipedia.org/wiki/Yoga" target="_blank">
+          Learn more about Yoga on Wikipedia
+        </a>
+      </p>
+      <a href="https://www.youtube.com/watch?v=j7rKKpwdXNE" target="_blank">
+        <button class="learn-yoga-button">Start practising yoga 🧘‍♀️</button>
+      </a>
+    </div>
+    <footer>
+      Coded by Elizabeth Torralbo with the support of
+      <a href="https://www.shecodes.io/" target="_blank">SheCodes</a>
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+
+      function toggleText(event) {
+        var text = event.textContent || event.innerText;
+        if (text == "Dark Theme") {
+          event.innerHTML = "Light Theme";
+        } else {
+          event.innerHTML = "Dark Theme";
+        }
+      }
+    </script>
+  </body>
+</html>
